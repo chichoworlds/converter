@@ -1,0 +1,20 @@
+[
+  {
+    "name": "videoName",
+    "description": "video description",
+    "active": true,
+    "images": [
+    ],
+    "reviews": [
+    ]
+  },
+  {
+    "name": "videoName2",
+    "description": "video description2",
+    "active": true,
+    "images": [
+    ],
+    "reviews": [
+    ]
+  }
+]

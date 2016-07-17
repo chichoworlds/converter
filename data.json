@@ -1,0 +1,13 @@
+{
+  "vid": "videos/vna.mp4",
+  "out": "out.mp4",
+  "outMp3": "audio.mp3",
+  "framesOut": "frames/frame%02d.png",
+  "quantity": 10,
+  "layer": "waterMark/waterMark.png",
+  "begin": 5,
+  "end": 5,
+  "renderVideoSize": "320x240",
+  "renderVideoCodec": "libx264",
+  "renderAudioCodec": "libmp3lame"
+}

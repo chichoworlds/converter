@@ -1,0 +1,21 @@
+<nav ng-controller="panelController as panel">
+  <li ng-class="{red:panel.isSelected(1)}">
+    <a href ng-click="panel.selectTab(1)">Option 1</a>
+  </li>
+  <li ng-class="{red:panel.isSelected(2)}">
+    <a href ng-click="panel.selectTab(2)">Option 2</a>
+  </li>
+</nav>
+<section ng-controller="videoController as video">
+  <article ng-repeat="vid in video.videos" ng-show="vid.active">
+    <h1>{{vid.name}}</h1>
+    <p>{{vid.description}}</p>
+    <div ng-show="{{vid.images.length}}">
+      <li ng-repeat="image in vid.images">
+        <img ng-src="{{image}}" alt="" />
+      </li>
+    </div>
+    <button type="button" name="button" class="btn"  ng-show="vid.active">OPTION 1</button>
+    <button type="button" name="button" class="btn"  ng-show="vid.active">OPTION 2</button>
+  </article>
+</section>

@@ -1,0 +1,8 @@
+<form name="formText" ng-controller="formController as form" ng-submit="formText.$valid && form.addData(video.show[0])" novalidate>
+  <fieldset>
+    {{form.text}}
+  </fieldset>
+  <input type="text" ng-model="form.text" name="text" value="" class="form-control ng-dirty ng-valid" required>
+  <button type="Submit" name="button" class="btn btn-primary">Submit</button>
+  <div>formText is {{formText.$valid}}</div>
+</form>
